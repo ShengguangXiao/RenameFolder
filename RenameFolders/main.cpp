@@ -8,7 +8,7 @@
 
 void printHelpMsg() {
     std::cout << "Please input 4 parameters" << std::endl;
-    std::cout << "RenameFolders <parent path> <alignment count> <row> <col>" << std::endl;
+    std::cout << "RenameFolders.exe <parent path> <alignment count> <row> <col>" << std::endl;
 }
 
 int main(int argc, char *argv[])
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     //QCoreApplication a(argc, argv);
 
     //return a.exec();
-    if (argc < 5) {
+    if (argc != 5) {
         printHelpMsg();
         return -1;
     }
