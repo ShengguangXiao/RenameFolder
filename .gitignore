@@ -37,3 +37,6 @@
 *.pdb
 *.ilk
 *.suo
+*.db
+*.opendb
+*.ipch
